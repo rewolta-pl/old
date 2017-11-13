@@ -1,0 +1,87 @@
+body {
+	height:100%; 
+	margin:0px; 
+	padding: 0px; 
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-repeat: repeat-x;
+	CURSOR: crosshair;
+}
+
+
+h1 {
+	font: bold 24px 'Trebuchet MS';
+	margin: 2;
+	margin-bottom: 5;
+	padding: 0px 0 0 10px;
+	background: url(default/h1Bg.png) no-repeat bottom left;
+	color: #333;
+}
+
+h2 {
+	font-variant: small-caps;
+	font-size: 15pt;
+	color: #5D5D5D;
+	font-family: Courier;
+	padding: 0px 0 0 6px;
+	margin: 4;
+}
+
+a:link{
+	FONT-WEIGHT: bold; 
+	FILTER: dropshadow(color=#d5d5d5,offX=1,offY=1); 
+	CURSOR: crosshair; 
+	COLOR:#000000 ; 
+	HEIGHT: 8pt; 
+	TEXT-DECORATION: none;
+}
+a:visited {
+	FONT-WEIGHT: bold; 
+	FILTER: dropshadow(color=#d5d5d5,offX=1,offY=1); 
+	CURSOR: crosshair; 
+	COLOR: #000000; 
+	HEIGHT: 8pt; 
+	TEXT-DECORATION: none;
+}
+a:hover {
+	FONT-WEIGHT: bold;  
+	FILTER: dropshadow(color=#767676,offX=1,offY=1); 
+	cursor: help; 
+	COLOR: #dcdcdc; 
+	HEIGHT: 8pt; 
+	TEXT-DECORATION: none;
+}
+
+
+input, textarea, select {
+	font-size:12px;
+	font-family:"Courier New", Courier, mono, Arial;
+	border: 1px solid #EBF3FA;
+	background-color: #EFEFEF;
+	color: Gray;
+	border-color: #CCcccc;
+}
+
+ul {
+	margin: 10px;
+	padding: 0px;
+	padding-left: 15px;
+	line-height: 130%;
+}
+
+li{
+ margin-left: 30px;
+}
+
+table
+{
+		font-size: 11px;
+}
+
+#podpis
+{
+	text-align: left;
+	color: Gray;
+	margin-left: 60px;
+}
